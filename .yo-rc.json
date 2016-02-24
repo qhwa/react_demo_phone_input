@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "phoneInput",
+    "style": "css",
+    "postcss": true
+  }
+}

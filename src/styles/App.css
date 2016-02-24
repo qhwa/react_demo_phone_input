@@ -1,0 +1,13 @@
+/* Base Application Styles */
+body {
+  padding: 2em;
+  color: #333;
+}
+
+.phone-input {
+  font-size: 200%;
+}
+
+.info {
+  color: #999;
+}
