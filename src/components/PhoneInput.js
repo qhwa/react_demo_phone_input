@@ -51,6 +51,10 @@ class PhoneInputComponent extends React.Component {
 
   // HOOK
   componentDidUpdate() {
+    this.keepCursorAtLast();
+  }
+
+  keepCursorAtLast() {
     let dom = ReactDom.findDOMNode(this.refs.phoneInput);
     let value = dom.value;
     dom.setSelectionRange(value.length, value.length);
