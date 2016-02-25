@@ -63,6 +63,10 @@ class PhoneInputComponent extends React.Component {
   getNumber() {
     return this.state && this.state.phoneNumber;
   }
+
+  setNumber(n) {
+    this.setState({ phoneNumber: n })
+  }
 }
 
 PhoneInputComponent.defaultProps = {
