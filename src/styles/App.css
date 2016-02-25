@@ -4,6 +4,10 @@ body {
   color: #333;
 }
 
+#app {
+  max-width: 30em;
+}
+
 .phone-input {
   font-size: 200%;
   width: 100%;
