@@ -18,7 +18,7 @@ class AppComponent extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="index">
         <PhoneInput onChange={this.inputHandler.bind(this)} ref="input" />
         <p className="info">
           Your phone number: <label>{ this.state.number }</label>
